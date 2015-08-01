@@ -20,6 +20,6 @@ $saque = new Operacao($contaDebito);
 $saque->sacar(300.00);
 
 // Mostramos o saldo da conta após o saque
-fprintf(STDOUT, "Saldo após a transferência:\n");
+fprintf(STDOUT, "Saldo após o saque:\n");
 fprintf(STDOUT, "Conta 1: %0.2f\n", $contaDebito->obterSaldo());
 exit(0);
